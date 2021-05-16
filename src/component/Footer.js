@@ -15,7 +15,7 @@ const Footer = (props) => {
             <p className="collaborate">{props.project}</p>
           </Col>
           <Col xs={5}>
-            <br />
+            <br />gi
             <br />
             <br />
             <br />
