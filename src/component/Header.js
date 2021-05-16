@@ -26,7 +26,7 @@ const Header=(props)=>{
                </h5>
                <hr style={{width:'32%',color:'white',marginLeft:'560px'}}/>
                <br />
-               <div className="icons">
+               <div className="icons-h">
                <div className="icons-f">
               < Facebook />
               </div>

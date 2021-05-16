@@ -1,10 +1,11 @@
 
 import './App.css';
   import Header from './component/Header';
-  import ContactUs from './component/ContactUs';
+
   import Footer from './component/Footer';
   import About from './component/Aboutme'
   import Work from './component/Work'
+  import Resume from "./component/Resume/Resume";
   import {Row,Col} from 'react-bootstrap'
   
 function App() {
@@ -38,7 +39,7 @@ function App() {
           phoneNumber="+197 543 2345"
           addressMail="sayhello@ceevee.com"
           CV="yasmina-khadra-ce-que-le-jour-doit-a-la-nuit.pdf"
-          src={"/original.jpg"}
+          src={"/sirine.jpg"}
         />
       </div>
         <div className="work">
@@ -71,7 +72,24 @@ function App() {
        
    </Row>
    </div>
-
+   <div className="resume">
+        <Resume sectionHeader="CAREER" />
+        <Resume sectionHeader="EDUCATION" />
+        <Resume sectionHeader="SKILL" />
+      </div>
+   <div className="Footer">
+        <Footer
+          project="Have a new project in mind? Let's collaborate and build something awesome.
+         Let's turn that idea to an even greater product :)"
+          mail="sayhello@ceevee.com"
+          phoneNumber="+197 543 2345"
+          facebbok=""
+          instagram=""
+          linkedin=""
+          github=""
+        ></Footer>
+      </div>
+      
    </div>
     
   );

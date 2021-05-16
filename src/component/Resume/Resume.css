@@ -1,0 +1,33 @@
+.row {
+    text-align: left;
+    margin: 60px 0;
+  }
+  
+  .right-col h5 span {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+  .right-col h5 {
+    color: gray;
+    letter-spacing: 2px;
+  }
+  .col h5 {
+    letter-spacing: 3px;
+    /* border-bottom: blue solid 2px; */
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: rgb(255, 81, 0);
+    padding: 10px;
+  }
+  .col hr {
+    width: 150px;
+  }
+  .resume {
+    margin: 200px;
+  }
+  .cont {
+    margin-bottom: 56px;
+  }
