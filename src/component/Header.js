@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Facebook,Instagram} from 'react-bootstrap-icons'
+import {Facebook,Instagram,Linkedin,Github,ArrowDownCircle} from 'react-bootstrap-icons'
 
 
 const Header=(props)=>{
     return (
-<section className="header" id="#home">
+<section  id="#home">
     
 <nav id="nav-wrap">
             <ul id="nav" className="nav">
@@ -18,22 +18,35 @@ const Header=(props)=>{
             </ul>
          </nav>
  
-  <div className="banner-text" >
+  <div className="text" >
      
-               <h1 className="responsive-headline" style={{color:'white', fontFamily:'sans-serif ',padding:"20px",marginTop:"50px"}}>I am {props.name}.</h1>
-               <h5 style={{color:'white', fontFamily:'sans-serif ', marginBottom:'50px'}}>I am a {props.role} and{props.bio}
-               </h5>
+               <h1 className="responsive-headline" >I am {props.name}.</h1>
                
+               <h5 className="bio-text">I am a {props.role} and{props.bio}
+               </h5>
+               <hr style={{width:'32%',color:'white',marginLeft:'560px'}}/>
                <br />
-               <div>
-              <i Facebook></i>
-              <i className="bi bi-linkedin"></i>
-              <i className="bi bi-instagram"></i>
+               <div className="icons">
+               <div className="icons-f">
+              < Facebook />
+              </div>
+              <div className="icons-i">
+              <Instagram />
+              </div>
+              <div className="icons-l">
+              < Linkedin />
+              </div>
+              <div className="icons-g">
+              < Github />
+              </div>
+             </div>
+             
+              <br  />
+              <div className="Arrow-Down">
+              <a  href="#about"><ArrowDownCircle /> <br/></a><span>SCROLL DOWN</span>
               </div>
               <br/>
-         <p className="scrolldown">
-            <a  href="#about"><i className="bi bi-arrow-down-circle"></i></a>
-         </p>
+         
             </div>
 
 </section>

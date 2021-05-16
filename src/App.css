@@ -1,36 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 
 .App {
   text-align: center;
  
 }
-.bi.bi-facebook{
-  color: #ffffff;
-  
-}
-.bi.bi-linkedin{
-  color: #ffffff;
-}
 
-.bi.bi-instagram{
-  color:#ffffff;
-}
-i{
-  margin: 10px;
-  text-decoration: overline;
-}
 .header{
-  background-image: url("https://s1.1zoom.me/big0/207/Assassin's_Creed_3_Boats_510434.jpg");
+  background-image: url("https://whiskeycharmers.files.wordpress.com/2014/10/desert-background-images-2.jpg");
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
-  width: auto;
+  width: 100%;
+  height: 100%;
+
+  
  
 }
+
 nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
   padding: 60px 0;
+  position: sticky;
 }
 
 nav ul {
@@ -47,7 +40,7 @@ nav ul li a {
   padding: 18px;
   font-family: "Open Sans";
   text-transform:uppercase;
-  color: rgba(29, 109, 184, 0.945);
+  color: rgba(239, 242, 245, 0.993);
   font-size: 18px;
   text-decoration: none;
   display: block;
@@ -56,9 +49,150 @@ nav ul li a {
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(245, 117, 31, 0.7);
+  color: rgba(226, 37, 31, 0.7);
+}
+.icons{
+  display: flex;
+  margin: 0 43%;
+}
+.icons-f{
+  color:#ffffff;
+  align-items: center;
+margin: 0 10px;
+  font-size:30px ;
+}
+.icons-i{
+  color:#ffffff;
+  align-items: center;
+margin: 0 10px;
+  font-size:30px ;
+
+}
+.icons-l{
+  color:#ffffff;
+  align-items: center;
+
+  margin: 0 10px;
+  
+
+
+  font-size:30px ;
+
+}
+.icons-g{
+  color:#ffffff;
+  align-items: center;
+  margin: 0 10px;
+  font-size:30px ;
+
 }
 
+.icons :hover{
+  color: red;
+}
+.Arrow-Down a{
+  color:white;
+  font-size: 35px;
+  align-items: center;
+  margin: 0 40%;
+  
+}
+ a :hover{
+cursor: pointer;
+color: red;
+transform: scale(1.1)
 
+  }
+    span{
+    color:white;
+ 
+    letter-spacing: 2px;
+  }
+  .responsive-headline{
+  color:white;
+   font-family:'Inter',sans-serif ;
+  
+  margin-top:150px;
+  margin-bottom: 20px;
+  font-size: 89px;
+ 
+  }
+  .bio-text{
+    color:white;
 
+    font-family: 'IBM Plex Serif', serif;
+    padding: 0 20%;
+    font-size: 30px;
+    margin-bottom: 7%;
+    
+  }
+  .orange {
+    color:rgb(241, 57, 11) ;
+  }
+  
+  p{
+    
+    font-size: 25px;
+    font-family: 'Frank Ruhl Libre', serif;
+  }
 
+  .text-work{
+    padding-top:  5% ;
+  }
+  .card-img-top {
+    padding: 20px !important;
+    opacity: 0.8 !important;
+    border-radius: 10px !important;
+  }
+  .title-work{
+    padding: 0 5%;
+   font-size: 55px;
+  }
+  
+  .work{
+    background-color: rgb(233, 229, 229);
+  }
+  .projects {
+    position: relative !important;
+    padding-top: 90px !important;
+    padding-bottom: 20px !important;
+  
+  }
+  
+  .project-card {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    height: auto !important;
+    font-family: 'Frank Ruhl Libre', serif;
+   
+  }
+  
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(223, 85, 5, 0.938) !important;
+    color: rgb(8, 8, 8) !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+  }
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(243, 94, 9, 0.959) !important;
+  }
+  .btn-primary {
+    color: #fff !important;
+    background-color: #ee622b !important;
+    border-color: #ee622b !important;
+    
+  }
+  
+  .btn-primary:hover {
+    color: #fff !important;
+    background-color:#ee622b !important;
+    
+    border-color: #ee622b !important;
+    
+  }
