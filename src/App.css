@@ -11,6 +11,7 @@
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
+
   width: 100%;
   height: 100%;
 
@@ -195,4 +196,62 @@ transform: scale(1.1)
     
     border-color: #ee622b !important;
     
+  }
+  .about {
+    background-color: #1e1e1e;
+    color: #929393;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 200px;
+  }
+  .profile-pic {
+    text-align: left;
+  }
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid #ffffff0e;
+  }
+  .contact-details {
+    display: flex;
+  }
+  .contact {
+    padding: 0% 25% 0% 0%;
+  }
+  .title {
+    color: #ffffff;
+  }
+  hr {
+    color: #7a7a7a;
+    width: 100%;
+    margin: 10% 0px 10% 0px;
+  }
+  .mail {
+    text-decoration: none;
+    color: #929393;
+  }
+  .mail:hover {
+    color: #ffffff;
+  }
+  .btn {
+    margin: 0px 0px 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: hsla(24, 100%, 47%, 1);
+    color: #ffffff;
+  }
+  .download {
+    font-size: 170%;
+    margin: 5px;
   }

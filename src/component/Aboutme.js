@@ -1,44 +1,49 @@
-import React from 'react';
-const About=(props)=>{
-  
+import React from "react";
 
-    return (
-      <section id="about">
-         <div className="row">
+import { Download } from "react-bootstrap-icons";
+import { Container, Row, Col } from "react-bootstrap";
 
-            <div className="three columns">
-
-               <img className="profile-pic" src={props.src} />
-               {props.children}
-
+const About = (about) => {
+  return (
+    <section id="about">
+      <Container>
+        <Row>
+          <Col>
+            <div className="profile-pic">
+              <img src={about.src} alt="profile-pic" />
             </div>
-
-            <div className="nine columns main-col">
-
-               <h2>About Me</h2>
-               <p>
-              
-               </p>
-
-               <div className="row">
-
-                  <div className="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{props.name}</span>
-                     <br></br>
-       						   <span>
-                     {props.address}
-                    </span>
-                    <br></br>
-                    <span>{props.website}</span>
-       					   </p>
-                  </div>
-               </div>
+          </Col>
+          <Col xs={9}>
+            <h2 className="title">About Me</h2>
+            <p>{about.aboutme}</p>
+            <hr />
+            <div className="contact-details">
+              <div className="contact">
+                <h2 className="title">Contact Details</h2>
+                <p className="address">
+                  <span>{about.name}</span>
+                  <br />
+                  <span>{about.address1}</span>
+                  <br />
+                  <span>{about.address2}</span>
+                  <br />
+                  <span>{about.phoneNumber}</span>
+                  <br />
+                  <a className="mail" href={`mailto: ${about.addressMail}`}>
+                    {about.addressMail}
+                  </a>
+                </p>
+              </div>
+              <a href={about.CV}>
+                <button className="btn">
+                  <Download className="download"></Download> DOWNLOAD CV
+                </button>
+              </a>
             </div>
-         </div>
-      </section>
-    );
-  }
-export default About
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
+export default About;

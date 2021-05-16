@@ -19,6 +19,28 @@ function App() {
         <br />
         
         </div>
+        <div className="about">
+        <About
+          aboutme="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam, quis nostrum exercitationem ullam corporis suscipit
+              laboriosam."
+          name="Jonathan Doe"
+          address1="1600 Amphitheatre Parkway"
+          address2="Mountain View, CA 94043 US"
+          phoneNumber="+197 543 2345"
+          addressMail="sayhello@ceevee.com"
+          CV="yasmina-khadra-ce-que-le-jour-doit-a-la-nuit.pdf"
+          src={"/original.jpg"}
+        />
+      </div>
         <div className="work">
         <div className="text-work">
         <h1 className="title-work">My Recent<strong className="orange"> Works</strong></h1>
@@ -49,6 +71,7 @@ function App() {
        
    </Row>
    </div>
+
    </div>
     
   );
