@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
 
 .App {
@@ -20,18 +20,23 @@
  
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
 nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
   padding: 60px 0;
-  position: sticky;
+  overflow: hidden;
 }
 
 nav ul {
   text-align: center;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 25px rgba(240, 237, 231, 0.904), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  
 }
 
 nav ul li {
@@ -42,20 +47,24 @@ nav ul li a {
   padding: 18px;
   font-family: "Open Sans";
   text-transform:uppercase;
-  color: rgba(239, 242, 245, 0.993);
+  color: rgb(240, 242, 247);
   font-size: 18px;
   text-decoration: none;
   display: block;
+  
 }
 
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(226, 37, 31, 0.7);
+  color: rgb(243, 245, 250);
+}
+nav a.active{
+  color: #ee622b;
 }
 .icons-h{
   display: flex;
-  margin: 0 43%;
+  margin: 0 44%;
 }
 .icons-f{
   color:#ffffff;
@@ -89,14 +98,14 @@ margin: 0 10px;
 
 }
 
-.icons :hover{
+.icons-h :hover{
   color: red;
 }
 .Arrow-Down a{
   color:white;
   font-size: 35px;
   align-items: center;
-  margin: 0 40%;
+  margin: 0 30%;
   
 }
  a :hover{
@@ -120,11 +129,11 @@ transform: scale(1.1)
  
   }
   .bio-text{
-    color:white;
+    color:rgb(233, 227, 227);
 
     font-family: 'IBM Plex Serif', serif;
     padding: 0 20%;
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 7%;
     
   }
@@ -188,6 +197,7 @@ transform: scale(1.1)
     color: #fff !important;
     background-color: #ee622b !important;
     border-color: #ee622b !important;
+    justify-content: center;
     
   }
   
@@ -237,7 +247,7 @@ transform: scale(1.1)
     color: #ffffff;
   }
   .btn-about {
-    margin: 0px 0px 16px;
+    margin: 25px 0px 16px;
     box-sizing: border-box;
     border: transparent;
     border-radius: 7px;
@@ -248,7 +258,7 @@ transform: scale(1.1)
     font-size: 14px;
     font-weight: bold;
   }
-  .btn:hover {
+  .btn-about:hover {
     background-color: hsla(24, 100%, 47%, 1);
     color: #ffffff;
   }
@@ -340,4 +350,20 @@ transform: scale(1.1)
   
   .icons :hover {
     color: rgb(255, 81, 0);
+  }
+  .up{
+    padding-left: 50%;
+    overflow: hidden;
+    display: b;
+
+  }
+  .up a{
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+   
+   
+  }
+  .up a :hover{
+    color: #f07918;
   }

@@ -22,23 +22,13 @@ function App() {
         </div>
         <div className="about">
         <About
-          aboutme="Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam."
-          name="Jonathan Doe"
-          address1="1600 Amphitheatre Parkway"
-          address2="Mountain View, CA 94043 US"
-          phoneNumber="+197 543 2345"
-          addressMail="sayhello@ceevee.com"
-          CV="yasmina-khadra-ce-que-le-jour-doit-a-la-nuit.pdf"
+          aboutme="I'm 26 years old I've been an Electrical automatic enginner,i graduated in October 2020 from national school of  engineers of Gabes.I did a professional transition to discover new challenges and better opportunities. I recently joind a very instructive Course among GOMYCODE team and I instantly started to learn a lot in a very short period.I'm able now to use Html, CSS ,javascript and React Js to create my Web applications I am a Devolper and also a Designer. An ambitious person that accepts all kinds ofchallenges and has no limitations."
+          name="Sirine Bennaceur"
+          address1="Rue Ahmed Rami "
+          address2="Gafsa, Tunisie"
+          phoneNumber="+21626167697"
+          addressMail="sirinebennaceur044@gmail.com"
+          CV="/Sirine CV.pdf"
           src={"/sirine.jpg"}
         />
       </div>
@@ -53,7 +43,7 @@ function App() {
             <Work
               imgPath="./Captureapp.png"
               isBlog={false}
-              title="Movie app"
+              title1="Movie app"
               description="It's a movie app, you can add and remove any movie and you can find your favourites with title or with ratings.  "
               link="https://github.com/Sirine454/Movie-app"
             />
@@ -63,8 +53,8 @@ function App() {
             <Work
               imgPath="./captureapp3.png"
               isBlog={false}
-              title="Shopping Card"
-              description="It's a shopping card for friends items for the lovers of the show Friends.You can add to card any item to price total and remove it.Also you can like you favourites items"
+              title1="Shopping Card"
+              description="It's a shopping card for friends items for the lovers of the show Friends.You can add to card any item to price total and remove it.Also you can like your favourites items."
               link="https://drive.google.com/drive/folders/1xeoV6zkLqnDNMeusFjeOrTyIQVbu5juh?usp=sharing"
             />
           </Col>
@@ -81,12 +71,12 @@ function App() {
         <Footer
           project="Have a new project in mind? Let's collaborate and build something awesome.
          Let's turn that idea to an even greater product :)"
-          mail="sayhello@ceevee.com"
-          phoneNumber="+197 543 2345"
-          facebbok=""
+          mail="sirinebennaceur044@gmail.com"
+          phoneNumber="+216 26 167 697"
+          facebbok="https://www.facebook.com/sirine.bennaceur.10/"
           instagram=""
-          linkedin=""
-          github=""
+          linkedin="https://www.linkedin.com/in/sirine-bennaceur-15762b132/"
+          github="https://github.com/Sirine454?tab=repositories"
         ></Footer>
       </div>
       

@@ -57,9 +57,9 @@ const Resume = (props) => {
             <Col xs={9}>
               <div className="cont">
                 <Education
-                  universityName="University of Life"
-                  degree="Master in Graphic Design"
-                  period="APRIL 2015"
+                  universityName="National School of Engineers of Gabes"
+                  degree="Diploma in electrical and automatic enginnering"
+                  period="2017-2020"
                   tasks=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laudantium cumque laborum, unde eligendi fugiat qui in sunt!
                 Quis dolor, itaque nisi harum tempora eum minima! Veritatis,
@@ -69,9 +69,9 @@ const Resume = (props) => {
 
               <div className="cont">
                 <Education
-                  universityName="School of Cool Designers"
-                  degree="B.A. Degree in Graphic Design"
-                  period="AUGUST 2012"
+                  universityName="Higher Institute of Technological Studies of Gafsa "
+                  degree="licence degree"
+                  period="2014-2017"
                   tasks=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laudantium cumque laborum, unde eligendi fugiat qui in sunt!
                 Quis dolor, itaque nisi harum tempora eum minima! Veritatis,

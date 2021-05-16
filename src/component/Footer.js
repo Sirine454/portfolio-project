@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Instagram, Linkedin, Github } from "react-bootstrap-icons";
+import { Facebook, Instagram, Linkedin, Github ,ArrowUpCircle} from "react-bootstrap-icons";
 import { Container, Row, Col } from "react-bootstrap";
 
 
@@ -9,13 +9,16 @@ const Footer = (props) => {
       <Container>
         <Row>
           <Col>
+          <br />
+          <br/>
             <h5 className="hello-title">SAY HELLO</h5>
+            <br />
             <br />
             <br />
             <p className="collaborate">{props.project}</p>
           </Col>
           <Col xs={5}>
-            <br />gi
+            <br />
             <br />
             <br />
             <br />
@@ -32,6 +35,11 @@ const Footer = (props) => {
           </Col>
         </Row>
       </Container>
+      <div className="up">
+        <a   href="#top">
+                <ArrowUpCircle />
+             </a>
+             </div>
       <hr className="the-line" />
       <div className="foot-footer">
         <p className="copyright">
@@ -59,7 +67,10 @@ const Footer = (props) => {
               <Github />
             </a>
           </div>
+         
+          
         </div>
+        
       </div>
     </section>
   );

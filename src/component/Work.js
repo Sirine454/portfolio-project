@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-bootstrap-icons";
 function Works(props) {
     return (
-      <div className="projects">
+      <div className="projects" id="work">
         
       <Card className="project-card-view">
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
         <Card.Body>
-          <Card.Title><strong>{props.title}</strong></Card.Title>
+          <Card.Title ><strong>{props.title1}</strong></Card.Title>
           <Card.Text style={{ textAlign: "justify" }}>
             {props.description}
           </Card.Text>

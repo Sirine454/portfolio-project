@@ -19,6 +19,8 @@ const About = (about) => {
             <hr />
             <div className="contact-details">
               <div className="contact">
+                <br/>
+                
                 <h2 className="title">Contact Details</h2>
                 <p className="address">
                   <span>{about.name}</span>
@@ -34,6 +36,7 @@ const About = (about) => {
                   </a>
                 </p>
               </div>
+              
               <a href={about.CV}>
                 <button className="btn-about">
                   <Download className="download"></Download> DOWNLOAD CV
