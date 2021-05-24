@@ -7,7 +7,7 @@ const Header=(props)=>{
     return (
 <section  id="#home">
     
-<nav>
+<nav >
   <ul>
     <li>
       <a className="active" href="#home">Home</a>
